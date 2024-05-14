@@ -25,8 +25,6 @@ namespace Elbrus
         public YourDbContext() : base("name=Elbrus.Properties.Settings.ElbrusConnectionString3")
         {
         }
-
-
         // Определяем класс для сущности Employee, отображающий столбцы таблицы Employees в базе данных
         public class Employee
         {
